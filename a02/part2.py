@@ -26,4 +26,4 @@ if __name__ == '__main__':
 
     with open('input.txt', 'r') as f:
         data = ([int(first), int(last)] for pair in f.read().split(',') for first, last in [pair.split('-')])
-    print(solution()) # NOt 30260171261 NOT 28774698428
+    print(solution())
