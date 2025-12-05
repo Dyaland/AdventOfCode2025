@@ -1,7 +1,7 @@
 def check_repeat(num):
     
     strint = str(num)
-    divisors = [i for i in range(2, len(strint) + 1) if len(strint)]
+    divisors = [i for i in range(2, len(strint) + 1)]
 
     for div in divisors:
         alt_div = len(strint) // div
